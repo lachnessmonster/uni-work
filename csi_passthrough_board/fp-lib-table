@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "WA-SMSI_9774XXX151") (type "KiCad") (uri "${KIPRJMOD}/imported_component_files/WA-SMSI_9774XXX151") (options "") (descr ""))
+)

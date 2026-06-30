@@ -374,6 +374,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "WA-SMSI_9774XXX151:WA-SMSI_9774XXX151"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "MP"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "M2.5 x 3.5mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" "WA-SMSI_9774XXX151:WA-SMSI_9774035151"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "THREAD" "M2.5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "INNER-DIAMETER" "3.5mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PIN-LENGTH" "3.5mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "INNER-THREAD-LENGTH" "-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/9774035151R.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PART-NUMBER" "9774035151R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "OUTER-DIAMETER" "5.1mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "WA-SMSI_9774XXX151_0_0"
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lachs_lib:CSI-22-F32Q-1A7H1-11022"
 			(pin_names
 				(offset 1.016)
@@ -3467,7 +3650,7 @@
 			(justify left bottom)
 		)
 		(uuid "1cbf46dd-6d16-4646-991c-9ecc82ed60f0")
-		(property "Net Class" ""
+		(property "Netclass" ""
 			(at 168.91 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3530,7 +3713,7 @@
 			(justify left bottom)
 		)
 		(uuid "26567c84-5c11-4977-bf10-1af132719bb1")
-		(property "Net Class" ""
+		(property "Netclass" ""
 			(at 251.46 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3563,7 +3746,7 @@
 			(justify left bottom)
 		)
 		(uuid "271108c6-5893-49bd-a3d5-b27daeb3589a")
-		(property "Net Class" ""
+		(property "Netclass" ""
 			(at 250.19 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3606,7 +3789,7 @@
 			(justify left bottom)
 		)
 		(uuid "2cb3d73d-c087-4e07-ace8-d2157d4e0cf6")
-		(property "Net Class" ""
+		(property "Netclass" ""
 			(at 328.93 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3769,7 +3952,7 @@
 			(justify left bottom)
 		)
 		(uuid "46e9546f-a736-4150-acf1-48b0732292bc")
-		(property "Net Class" ""
+		(property "Netclass" ""
 			(at 327.66 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4552,7 +4735,7 @@
 			(justify left bottom)
 		)
 		(uuid "ce71d1bb-0e0d-49e3-9d01-334689a35e96")
-		(property "Net Class" ""
+		(property "Netclass" ""
 			(at 81.28 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4755,7 +4938,7 @@
 			(justify left bottom)
 		)
 		(uuid "ed5d1f08-01eb-40c5-b1b8-77a6df9ddede")
-		(property "Net Class" ""
+		(property "Netclass" ""
 			(at 167.64 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4798,7 +4981,7 @@
 			(justify left bottom)
 		)
 		(uuid "f5448d8d-6a35-474d-b602-ab12e5b55182")
-		(property "Net Class" ""
+		(property "Netclass" ""
 			(at 80.01 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7429,6 +7612,171 @@
 		)
 	)
 	(symbol
+		(lib_id "WA-SMSI_9774XXX151:WA-SMSI_9774XXX151")
+		(at 289.56 254 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7eba618c-14eb-49ed-abe8-c4ecaede1674")
+		(property "Reference" "MP4"
+			(at 293.37 253.9999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5 x 3.5mm"
+			(at 289.56 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "WA-SMSI_9774XXX151:WA-SMSI_9774035151"
+			(at 289.56 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "THREAD" "M2.5"
+			(at 289.56 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "INNER-DIAMETER" "3.5mm"
+			(at 289.56 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PIN-LENGTH" "3.5mm"
+			(at 289.56 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "INNER-THREAD-LENGTH" "-"
+			(at 289.56 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/9774035151R.pdf"
+			(at 289.56 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PART-NUMBER" "9774035151R"
+			(at 289.56 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "OUTER-DIAMETER" "5.1mm"
+			(at 289.56 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "590d4780-7f97-4620-b9bb-909bbb10458a")
+		)
+		(instances
+			(project "csi_passthrough_board"
+				(path "/7f86ee12-abe7-45c6-aee0-34946e13c194"
+					(reference "MP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lachs_lib:CSI-22-F32Q-1A7H1-11022")
 		(at 200.66 179.07 0)
 		(mirror x)
@@ -7958,6 +8306,171 @@
 			(project "csi_passthrough_board"
 				(path "/7f86ee12-abe7-45c6-aee0-34946e13c194"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WA-SMSI_9774XXX151:WA-SMSI_9774XXX151")
+		(at 289.56 234.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "935a6544-7b21-4fe4-88b6-b555638d2761")
+		(property "Reference" "MP1"
+			(at 293.37 234.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5 x 3.5mm"
+			(at 289.56 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "WA-SMSI_9774XXX151:WA-SMSI_9774035151"
+			(at 289.56 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "THREAD" "M2.5"
+			(at 289.56 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "INNER-DIAMETER" "3.5mm"
+			(at 289.56 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PIN-LENGTH" "3.5mm"
+			(at 289.56 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "INNER-THREAD-LENGTH" "-"
+			(at 289.56 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/9774035151R.pdf"
+			(at 289.56 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PART-NUMBER" "9774035151R"
+			(at 289.56 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "OUTER-DIAMETER" "5.1mm"
+			(at 289.56 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "830c6394-e577-4444-9d36-98c3680acca6")
+		)
+		(instances
+			(project "csi_passthrough_board"
+				(path "/7f86ee12-abe7-45c6-aee0-34946e13c194"
+					(reference "MP1")
 					(unit 1)
 				)
 			)
@@ -8681,6 +9194,336 @@
 			(project "csi_passthrough_board"
 				(path "/7f86ee12-abe7-45c6-aee0-34946e13c194"
 					(reference "J101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WA-SMSI_9774XXX151:WA-SMSI_9774XXX151")
+		(at 289.56 247.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1a39e21-cfc6-4bd7-982e-d2ecbbb23680")
+		(property "Reference" "MP3"
+			(at 293.37 247.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5 x 3.5mm"
+			(at 289.56 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "WA-SMSI_9774XXX151:WA-SMSI_9774035151"
+			(at 289.56 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "THREAD" "M2.5"
+			(at 289.56 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "INNER-DIAMETER" "3.5mm"
+			(at 289.56 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PIN-LENGTH" "3.5mm"
+			(at 289.56 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "INNER-THREAD-LENGTH" "-"
+			(at 289.56 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/9774035151R.pdf"
+			(at 289.56 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PART-NUMBER" "9774035151R"
+			(at 289.56 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "OUTER-DIAMETER" "5.1mm"
+			(at 289.56 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "8a57dd82-a2db-415c-a22c-135f386b6f81")
+		)
+		(instances
+			(project "csi_passthrough_board"
+				(path "/7f86ee12-abe7-45c6-aee0-34946e13c194"
+					(reference "MP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WA-SMSI_9774XXX151:WA-SMSI_9774XXX151")
+		(at 289.56 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e61f5e32-3ac5-4a84-b2f7-409e3901b27c")
+		(property "Reference" "MP2"
+			(at 293.37 241.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5 x 3.5mm"
+			(at 289.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "WA-SMSI_9774XXX151:WA-SMSI_9774035151"
+			(at 289.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "THREAD" "M2.5"
+			(at 289.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "INNER-DIAMETER" "3.5mm"
+			(at 289.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PIN-LENGTH" "3.5mm"
+			(at 289.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "INNER-THREAD-LENGTH" "-"
+			(at 289.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/9774035151R.pdf"
+			(at 289.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PART-NUMBER" "9774035151R"
+			(at 289.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "OUTER-DIAMETER" "5.1mm"
+			(at 289.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "5729b551-4ff9-4af1-9d67-9b5a19d3de7a")
+		)
+		(instances
+			(project "csi_passthrough_board"
+				(path "/7f86ee12-abe7-45c6-aee0-34946e13c194"
+					(reference "MP2")
 					(unit 1)
 				)
 			)
