@@ -111,7 +111,7 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
+        "lib_footprint_issues": "ignore",
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
@@ -268,6 +268,10 @@
         {
           "diameter": 0.6,
           "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false

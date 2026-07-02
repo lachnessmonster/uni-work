@@ -7,7 +7,7 @@
 	(property "Reference" "REF**"
 		(at 0 -4.015 0)
 		(layer "F.SilkS")
-		(uuid "7ef1579f-8d89-4255-918a-6ffffc89eecb")
+		(uuid "847581bb-5654-41f5-baa4-f5784ce9a0b7")
 		(effects
 			(font
 				(size 1 1)
@@ -18,7 +18,7 @@
 	(property "Value" "WA-SMSI_9774035151"
 		(at 7.93 4.065 0)
 		(layer "F.Fab")
-		(uuid "4c5b1068-1d74-4f28-8176-2932f00e4fe0")
+		(uuid "a10c9167-1ea6-4d07-8b33-4eaffb40f78f")
 		(effects
 			(font
 				(size 1 1)
@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a673cb69-fd64-4122-afd6-d6616bcb5909")
+		(uuid "de1cfb08-5d20-4cea-a4d6-fa070f1727d6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ff696b51-0c3f-4f02-a0de-6133c3ab2024")
+		(uuid "a3775c29-fb31-4538-a379-4079bc07a200")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -74,7 +74,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "04db8c28-42ca-47fe-8a50-f515b7006182")
+		(uuid "49e78b10-c322-400d-bcd4-5bdf4af41bff")
 	)
 	(fp_poly
 		(pts
@@ -100,7 +100,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "866c814e-2a14-488e-94fd-57c9cce74e03")
+		(uuid "0b8c1c10-e58c-4f7f-96f3-405584283a98")
 	)
 	(fp_poly
 		(pts
@@ -124,7 +124,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "0dd346f2-7345-4a11-8a5f-8eeadc828610")
+		(uuid "952931b0-61c2-4721-8e66-ef4ce7b4ac0b")
 	)
 	(fp_poly
 		(pts
@@ -150,7 +150,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "408ffc22-7dd9-40cb-8b74-82ec9b73eb10")
+		(uuid "262f3787-cbcb-4a4a-a8de-929710dfc4a0")
 	)
 	(fp_poly
 		(pts
@@ -181,7 +181,7 @@
 		)
 		(fill yes)
 		(layer "F.CrtYd")
-		(uuid "55584069-ac63-48b3-a791-8e60200694f2")
+		(uuid "b7ec2c1e-2996-425f-9061-8aba3b9d628f")
 	)
 	(fp_circle
 		(center 0 0)
@@ -192,21 +192,21 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "067ab537-833f-4782-8cbe-8d6d4dcb9437")
+		(uuid "73cb4f9d-4275-4873-98e8-70459d675603")
 	)
 	(pad "" np_thru_hole circle
 		(at 0 0)
 		(size 3.7 3.7)
 		(drill 3.7)
 		(layers "*.Cu" "*.Mask")
-		(uuid "6b11a18a-58cf-4127-b159-3b9f38d6d3bf")
+		(uuid "98e4fc9b-ee59-410b-b4e8-24b658e5a992")
 	)
 	(pad "1" smd circle
 		(at 0 0)
 		(size 6 6)
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0.102)
-		(uuid "ebd07cef-0354-471c-8cfb-9723e3edd351")
+		(uuid "1a6fddf8-f5ac-4b99-9141-3e2320217cab")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/imported_component_files/9774120360R/9774120360R+%28rev1%29.stp"
@@ -218,6 +218,17 @@
 		)
 		(rotate
 			(xyz 90 -0 -0)
+		)
+	)
+	(model "/home/lachlan-power/Desktop/docs/uni work docs/boards/csi_passthrough_board/imported_component_files/9774120360R/9774120360R+%28rev1%29.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
 		)
 	)
 )
