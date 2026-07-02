@@ -166,7 +166,7 @@
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -734,6 +734,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -753,7 +761,7 @@
         "uuid": "7f86ee12-abe7-45c6-aee0-34946e13c194"
       }
     ],
-    "used_designators": "MP1-4,J1-9,J101-108",
+    "used_designators": "#PWR2,#PWR7-9,#PWR13-15,J1-9,J11,J101-108,MP1-13,U1-2",
     "variants": []
   },
   "sheets": [
